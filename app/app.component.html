@@ -1,0 +1,9 @@
+<StackLayout class="p-20">
+
+     <TextField [(ngModel)]="enteredNumber" keyboardType="phone" hint="Enter Number" ></TextField>
+
+     <TextField [(ngModel)]="enteredMessage" hint="Enter Message" ></TextField>
+     
+     <Button text="sendSMS" (tap)="sendSMS()" class="btn btn-primary btn-active"></Button>
+    
+</StackLayout>
